@@ -1,0 +1,26 @@
+body {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.grid-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    flex-wrap: wrap;
+    width: 560px;
+    align-items: center;
+
+}
+
+.grid-items{
+    padding: 9px;
+    border: solid 1px black;
+    width: 15px;
+    height: 15px;
+
+}

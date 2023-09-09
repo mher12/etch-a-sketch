@@ -1,4 +1,11 @@
 const divContainer = document.getElementById('div-container');
-let divOne = document.createElement('div');
+let gridCount= 1;
 
-divContainer.appendChild(divOne);
+while (gridCount < 257){
+ const gridDivs = document.createElement('div');
+ gridDivs.classList.add('grid-items')
+ gridDivs.textContent = gridCount;
+ divContainer.appendChild(gridDivs);
+ gridCount++
+ console.log(gridCount)
+};
